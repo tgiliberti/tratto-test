@@ -42,5 +42,5 @@ Feel free to define the conversions values as you want to, following as this:
 
 # Publishing
 
-Fork or clone this repository, add your modifications and send the Github URL to us at thiago@kcapt.com.br
+Fork or clone this repository, add your modifications to your own repository and send the Github URL to us at thiago@kcapt.com.br
 Please, create and write your commits as in real life, since we're going to review this too.
