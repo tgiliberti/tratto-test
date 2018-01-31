@@ -15,10 +15,10 @@ We want you to write a ruby plain code to load all the users and wallets, and be
     }
   }
 
-And be enabled to exchange/transfer the wallet amounts through accounts.
+And be able to exchange/transfer the wallet amounts through accounts.
 For examples:
-  Jon wants to transfer 100 euros to Littlefinger, but Littlefinger don't have an Euro wallet, so he'll convert the amount to dollars and transfer the relative value to Littlefinger Dollars wallet.
-  Jon wants to transfer 500 dollars to Arya, which have a Dollars wallet, so he'll transfer the normal value.
+  * Jon wants to transfer 100 euros to Littlefinger, but Littlefinger don't have an Euro wallet, so he'll convert the amount to dollars and transfer the relative value to Littlefinger Dollars wallet.
+  * Jon wants to transfer 500 dollars to Arya, which have a Dollars wallet, so he'll transfer the normal value.
 
 The conversions should be applied when necessary, or just added in a simple public API, for example:
 WalletCentral.transfer(jon, arya, 500, 'dollar')
