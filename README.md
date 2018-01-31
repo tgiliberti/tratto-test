@@ -21,7 +21,7 @@ For examples:
   * Jon wants to transfer 500 dollars to Arya, which have a Dollars wallet, so he'll transfer the normal value.
 
 The conversions should be applied when necessary, or just added in a simple public API, for example:
-WalletCentral.transfer(jon, arya, 500, 'dollar')
+WalletCentral.transfer(jon, arya, 'USD', 500)
 
 Test for edge cases, if Jon is trying to transfer real but don't have a wallet with this currency, what it should do?
 What happens if it's trying to transfer more than his available amount?
@@ -30,7 +30,7 @@ The conversion is working correctly? Undoing it would restore the same value?
 
 Feel free to create your own files/classes in the lib directory, and add all necessary tests, we only require a public API to be able to output data and do the transfers, such as:
 
-WalletCentral.transfer(WalletJon, WalletArya, 'dollar', 100.0)
+WalletCentral.transfer(WalletJon, WalletArya, 'USD', 100.0)
 WalletCentral.output # as json
 WalletCentral.output("jon") # you can write this as you want to, we just want a filter to show the wallets and amounts for a specific user.
 
