@@ -6,6 +6,7 @@ In the lib/resources directory, you'll find a csv data file:
 
 We want you to write a ruby plain code to load all the users and wallets, and be available to output the data in json:
 * JSON as an array of objects with:
+
   {
     name: "Jon",
     wallets: {
@@ -36,8 +37,8 @@ WalletCentral.output("jon") # you can write this as you want to, we just want a 
 # Wallet Conversions resources
 
 Feel free to define the conversions values as you want to, following as this:
-USD to BRL = 1 USD is 3.16 BRL
-USD to EUR = 1 USD is 0.80 EUR
+* USD to BRL = 1 USD is 3.16 BRL
+* USD to EUR = 1 USD is 0.80 EUR
 
 # Publishing
 
